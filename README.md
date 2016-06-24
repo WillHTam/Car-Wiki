@@ -1,2 +1,4 @@
-# Car-Wiki
-A Wiki about Cars made with Ruby on Rails. Features User and Password Authentication.
+# README
+
+A Wiki made in Rails. Features User/Password authentication. Practice in
+creating Controllers / Models / Routes /Views.

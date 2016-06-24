@@ -1,0 +1,25 @@
+
+<ul>
+<li>
+  <strong>Manufacturer:</strong>
+  <%= @car.manufacturer %>
+</li>
+
+<li>
+  <strong>Model:</strong>
+  <%= @car.model %>
+</li>
+
+<li>
+  <strong>Layout:</strong>
+  <%= @car.layout %>
+</li>
+
+<li>
+  <strong>Description:</strong>
+  <%= @car.description %>
+</li>
+</ul>
+
+<%= link_to 'Edit', edit_car_path(@car) %> |
+<%= link_to 'Back', cars_path %>
